@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时产物
+.transcribe.lock
+*.log
+
+# 模型文件体积大,不随仓库分发,按 README 自行下载(通常放到这里)
+models/
+
+# 本地配置
+.env

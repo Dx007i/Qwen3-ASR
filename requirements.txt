@@ -1,0 +1,13 @@
+# Web 框架与服务器
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+
+# 模型推理(Qwen3-ASR 自 transformers 5.13.0 起原生支持,无需 dev 版)
+transformers>=5.13.0
+# torch 请按 https://pytorch.org 选择与本机 CUDA 匹配的 GPU 版安装命令
+torch>=2.6.0
+
+# 音频处理
+librosa>=0.10
+numpy

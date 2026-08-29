@@ -1,0 +1,13 @@
+# 统一行尾:文本文件入库一律 LF,工作区按平台检出
+* text=auto
+
+# start.sh 必须是 LF,否则 Linux/macOS 上 bash 会报错
+*.sh text eol=lf
+
+# Windows 批处理保持 CRLF
+*.bat text eol=crlf
+
+# 二进制文件
+*.png binary
+*.jpg binary
+*.wav binary
