@@ -223,6 +223,4 @@ RTX 4060 Ti 16GB 实测，7 分 12 秒视频：
 - [Qwen3-ASR](https://huggingface.co/Qwen) — 阿里 Qwen 团队的语音识别模型（Apache-2.0）
 - [FastAPI](https://fastapi.tiangolo.com/) / [Transformers](https://github.com/huggingface/transformers)
 
-## License
-
-[MIT](LICENSE)（模型文件遵循其自身许可，另行下载）
+友链：https://linux.do
